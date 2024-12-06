@@ -9,15 +9,15 @@ def menu_principal():
         print("6) Equipos y Estadísticas")
         print("7) Consultas y Análisis")
         print("8) Salir")
-        opcion = input("Ingrese una opción válida: ")
+        opcion = int(input("Ingrese una opción válida: "))
 
-        if opcion == "1":
+        if opcion == 1:
             gestion_jugadores()
-        elif opcion == "2":
+        elif opcion == 2:
             gestion_mapas()
-        elif opcion == "3":
+        elif opcion == 3:
             gestion_inventarios()
-        elif opcion == "8":
+        elif opcion == 8:
             print("Saliendo del programa...")
             break
         else:
@@ -32,16 +32,16 @@ def gestion_jugadores():
         print("3) Eliminar jugador")
         print("4) Consultar datos de jugador")
         print("5) Regresar al menú principal")
-        opcion = input("Ingrese una opción válida: ")
+        opcion = int(input("Ingrese una opción válida: "))
 
-        if opcion == "1":
+        if opcion == 1:
             nombre = input("Ingrese el nombre de usuario: ")
             nivel = input("Ingrese el nivel inicial (Ej: 1-10): ")
             puntuacion = input("Ingrese la puntuación inicial: ")
             equipo = input("Ingrese el equipo del jugador: ")
             jugadores[nombre] = {"nivel": nivel, "puntuacion": puntuacion, "equipo": equipo, "inventario": []}
             print(f"Jugador '{nombre}' registrado con éxito.")
-        elif opcion == "4":
+        elif opcion == 4:
             nombre = input("Ingrese el nombre de usuario a consultar: ")
             if nombre in jugadores:
                 print("\n------------------------------------")
@@ -53,7 +53,7 @@ def gestion_jugadores():
                 print("------------------------------------")
             else:
                 print("Jugador no encontrado.")
-        elif opcion == "5":
+        elif opcion == 5:
             break
         else:
             print("Opción no válida. Intente de nuevo.")
@@ -69,19 +69,19 @@ def gestion_mapas():
         print("2) Consultar ubicaciones en un mapa")
         print("3) Agregar conexión entre ubicaciones")
         print("4) Regresar al menú principal")
-        opcion = input("Ingrese una opción válida: ")
+        opcion = int(input("Ingrese una opción válida: "))
 
-        if opcion == "1":
+        if opcion == 1:
             print("Mapas disponibles:")
             for mapa in mapas.keys():
                 print(f"- {mapa}")
-        elif opcion == "2":
+        elif opcion == 2:
             mapa = input("Ingrese el nombre del mapa: ")
             if mapa in mapas:
                 print(f"Ubicaciones en {mapa}: {', '.join(mapas[mapa])}")
             else:
                 print("Mapa no encontrado.")
-        elif opcion == "4":
+        elif opcion == 4:
             break
         else:
             print("Opción no válida. Intente de nuevo.")
