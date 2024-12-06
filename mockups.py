@@ -44,8 +44,3 @@ print("1) Modificar mi jugador.")
 print("2) Consulta un jugador.")
 print("3) Eliminar mi jugador.")
 print("4) Inicia a jugar.")
-print("Ingrese una opcion valida: 4")
-print("ejemplo commit")
-print("Ingrese una opcion valida: 2")
-
-
