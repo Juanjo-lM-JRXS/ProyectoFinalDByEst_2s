@@ -42,8 +42,3 @@ VALUES
 
 -- Consultar los datos:
 SELECT * FROM Jugadores;
-
-	
-
-
-
