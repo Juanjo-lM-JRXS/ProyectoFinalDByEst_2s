@@ -19,7 +19,7 @@ BEGIN
 END //
 DELIMITER ;
 
-CALL RegistrarJugadorNuevo('DismalSkull', 616, 9999, 'Metalheads', 'M16, Granada, Escudo Táctico');
+CALL RegistrarJugadorNuevo('DismalSkull', 616, 999999, 'Metalheads', 'M16, Granada, Escudo Táctico');
 
 -- 2. Consulta de un jugador de manera individual:
 DELIMITER //
@@ -31,7 +31,7 @@ BEGIN
 END //
 DELIMITER ;
 
-CALL ConsultarJugadorÚnico('5');
+CALL ConsultarJugadorÚnico('21');
 
 -- 2.1. Consulta de todos los jugadores actuales:
 DELIMITER //
@@ -77,4 +77,4 @@ BEGIN
 END //
 DELIMITER ;
 
-CALL EliminarJugadorEspecífico(5);
+CALL EliminarJugadorEspecífico(4);
