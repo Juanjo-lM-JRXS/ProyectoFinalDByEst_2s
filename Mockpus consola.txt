@@ -1,0 +1,120 @@
+*************************** Menú Principal ***************************
+1) Gestión de Jugadores
+2) Gestión de Mapas
+3) Gestión de Inventarios
+4) Sistema de Batallas y Partidas
+5) Ranking Global
+6) Equipos y Estadísticas
+7) Consultas y Análisis
+8) Salir
+Ingrese una opción válida: 1
+
+*************************** Gestión de Jugadores ***************************
+1) Registrar nuevo jugador
+2) Modificar datos de jugador
+3) Eliminar jugador
+4) Consultar datos de jugador
+5) Regresar al menú principal
+Ingrese una opción válida: 1
+Ingrese el nombre de usuario: ShooterMaster
+Ingrese el nivel inicial (Ej: 1-10): 5
+Ingrese la puntuación inicial: 1500
+Ingrese el equipo del jugador: Delta Squad
+Jugador 'ShooterMaster' registrado con éxito.
+Retorno a Gestión de Jugadores.
+
+*************************** Gestión de Jugadores ***************************
+1) Registrar nuevo jugador
+2) Modificar datos de jugador
+3) Eliminar jugador
+4) Consultar datos de jugador
+5) Regresar al menú principal
+Ingrese una opción válida: 4
+Ingrese el nombre de usuario a consultar: ShooterMaster
+------------------------------------
+Usuario: ShooterMaster
+Nivel: 5
+Puntuación: 1500
+Equipo: Delta Squad
+Inventario: Vacío
+------------------------------------
+Retorno a Gestión de Jugadores.
+
+*************************** Menú Principal ***************************
+1) Gestión de Jugadores
+2) Gestión de Mapas
+3) Gestión de Inventarios
+4) Sistema de Batallas y Partidas
+5) Ranking Global
+6) Equipos y Estadísticas
+7) Consultas y Análisis
+8) Salir
+Ingrese una opción válida: 2
+
+*************************** Gestión de Mapas ***************************
+1) Ver mapas disponibles
+2) Consultar ubicaciones en un mapa
+3) Agregar conexión entre ubicaciones
+4) Regresar al menú principal
+Ingrese una opción válida: 1
+Mapas disponibles:
+- Mapa Urbano
+- Zona Desértica
+Retorno a Gestión de Mapas.
+
+*************************** Gestión de Mapas ***************************
+1) Ver mapas disponibles
+2) Consultar ubicaciones en un mapa
+3) Agregar conexión entre ubicaciones
+4) Regresar al menú principal
+Ingrese una opción válida: 2
+Ingrese el nombre del mapa: Mapa Urbano
+Ubicaciones en Mapa Urbano: Centro Comercial, Callejón, Azotea
+Retorno a Gestión de Mapas.
+
+*************************** Menú Principal ***************************
+1) Gestión de Jugadores
+2) Gestión de Mapas
+3) Gestión de Inventarios
+4) Sistema de Batallas y Partidas
+5) Ranking Global
+6) Equipos y Estadísticas
+7) Consultas y Análisis
+8) Salir
+Ingrese una opción válida: 3
+
+*************************** Gestión de Inventarios ***************************
+1) Añadir arma al inventario
+2) Eliminar arma del inventario
+3) Consultar inventario de un jugador
+4) Regresar al menú principal
+Ingrese una opción válida: 1
+Ingrese el nombre del jugador: ShooterMaster
+Ingrese el nombre del arma: Rifle de Asalto
+Arma 'Rifle de Asalto' añadida al inventario de 'ShooterMaster'.
+Retorno a Gestión de Inventarios.
+
+*************************** Gestión de Inventarios ***************************
+1) Añadir arma al inventario
+2) Eliminar arma del inventario
+3) Consultar inventario de un jugador
+4) Regresar al menú principal
+Ingrese una opción válida: 3
+Ingrese el nombre del jugador: ShooterMaster
+------------------------------------
+Inventario de ShooterMaster:
+1) Rifle de Asalto
+------------------------------------
+Retorno a Gestión de Inventarios.
+
+*************************** Menú Principal ***************************
+1) Gestión de Jugadores
+2) Gestión de Mapas
+3) Gestión de Inventarios
+4) Sistema de Batallas y Partidas
+5) Ranking Global
+6) Equipos y Estadísticas
+7) Consultas y Análisis
+8) Salir
+Ingrese una opción válida: 8
+Saliendo del programa...
